@@ -19,7 +19,6 @@ public class SampleFragmentPagerAdapter extends FragmentPagerAdapter{
     public SampleFragmentPagerAdapter(FragmentManager fm, Context context) {
         super(fm);
         this.context=context;
-
     }
     @Override
     public Fragment getItem(int position) {
