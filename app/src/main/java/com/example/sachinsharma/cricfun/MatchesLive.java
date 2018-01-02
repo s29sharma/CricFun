@@ -15,7 +15,7 @@ public class MatchesLive {
     public MatchesLive(){
         matches=MatchView.listAll(MatchView.class);
         if(matches.size()==0) {
-            MatchView matchView1 = new MatchView("Ind \uD83C\uDDEE\uD83C\uDDF3", "\uD83C\uDDFF\uD83C\uDDE6 SA ", "10:00", "1");
+            MatchView matchView1 = new MatchView("Ind \uD83C\uDDEE\uD83C\uDDF3", "\uD83C\uDDFF\uD83C\uDDE6 SA ", "10:00", "2");
             matchView1.save();
             MatchView matchView2 = new MatchView("Aus \uD83C\uDDE6\uD83C\uDDFA", "\uD83C\uDDEC\uD83C\uDDE7 Eng", "10:00", "1");
             matchView2.save();

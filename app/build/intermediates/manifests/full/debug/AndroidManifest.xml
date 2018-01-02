@@ -29,7 +29,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.example.sachinsharma.cricfun.CurrentActivity"
+            android:name="com.example.sachinsharma.cricfun.CurrentMatchesFragment"
             android:label="Back"
             android:parentActivityName="com.example.sachinsharma.cricfun.MainActivity" >
             <meta-data

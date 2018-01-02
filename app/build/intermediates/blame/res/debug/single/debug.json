@@ -1008,10 +1008,6 @@
         "source": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/build/generated/res/pngs/debug/drawable-ldpi/ic_play_circle_outline_black_24px.png"
     },
     {
-        "merged": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/build/intermediates/res/merged/debug/layout_activity_current.xml.flat",
-        "source": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/res/layout/activity_current.xml"
-    },
-    {
         "merged": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/build/intermediates/res/merged/debug/drawable-xxxhdpi-v4_abc_ic_star_half_black_36dp.png.flat",
         "source": "/Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/res/drawable-xxxhdpi-v4/abc_ic_star_half_black_36dp.png"
     },
@@ -1026,6 +1022,10 @@
     {
         "merged": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/build/intermediates/res/merged/debug/drawable-xxhdpi-v4_abc_ic_menu_paste_mtrl_am_alpha.png.flat",
         "source": "/Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/res/drawable-xxhdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/build/intermediates/res/merged/debug/layout_current_matches_fragment.xml.flat",
+        "source": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/res/layout/current_matches_fragment.xml"
     },
     {
         "merged": "/Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/build/intermediates/res/merged/debug/color_switch_thumb_material_dark.xml.flat",

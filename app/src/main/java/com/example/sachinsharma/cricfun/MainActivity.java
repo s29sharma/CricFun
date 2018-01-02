@@ -2,26 +2,26 @@ package com.example.sachinsharma.cricfun;
 
 import android.content.Intent;
 import android.os.Bundle;
-import android.support.design.widget.FloatingActionButton;
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.PagerTabStrip;
 import android.support.v4.view.ViewPager;
-import android.view.View;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
 import android.support.v4.widget.DrawerLayout;
 import android.support.v7.app.ActionBarDrawerToggle;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
-
-import java.util.Calendar;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout mDrawerLayout;
     ViewPager vp;
+    Fragment fragment = null;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -81,16 +81,16 @@ public class MainActivity extends AppCompatActivity
     @Override
     public boolean onNavigationItemSelected(MenuItem item) {
         // Handle navigation view item clicks here.
-        Fragment fragment = null;
-        Class fragmentClass;
         int id = item.getItemId();
 
         if (id == R.id.nav_home) {
-           getApplicationContext();
+           Intent intent=new Intent(this,MainActivity.class);
+           startActivity(intent);
         } else if (id == R.id.nav_currentMatches) {
-           Intent intent=new Intent(this,CurrentActivity.class);
-            startActivity(intent);
-        } else if (id == R.id.nav_Results) {
+            findViewById(R.id.mainLinear).setVisibility(View.GONE);
+            fragment=new CurrentMatchesFragment().newInstance();
+        }
+        else if (id == R.id.nav_Results) {
 
         } else if (id == R.id.nav_News) {
 
@@ -105,8 +105,12 @@ public class MainActivity extends AppCompatActivity
         else if(id== R.id.nav_PlayerProfiles){
 
         }
-
-
+        if (fragment != null) {
+            FragmentTransaction ft = getSupportFragmentManager().beginTransaction();
+            ft.replace(R.id.mainConstraint, fragment);
+            Log.d("TAG", "Item Click Working");
+            ft.commit();
+        }
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;

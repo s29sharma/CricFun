@@ -100,14 +100,14 @@ category#android.intent.category.LAUNCHER
 ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:20:17-77
 	android:name
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:20:27-74
-activity#com.example.sachinsharma.cricfun.CurrentActivity
+activity#com.example.sachinsharma.cricfun.CurrentMatchesFragment
 ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:23:9-30:20
 	android:parentActivityName
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:24:13-55
 	android:label
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:25:13-33
 	android:name
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:23:19-50
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:23:19-57
 meta-data#android.support.PARENT_ACTIVITY
 ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:27:13-29:81
 	android:value
