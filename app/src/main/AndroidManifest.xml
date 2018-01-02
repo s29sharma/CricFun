@@ -20,6 +20,14 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CurrentActivity"
+            android:parentActivityName=".MainActivity"
+            android:label="Back"
+            >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.sachinsharma.cricfun.MainActivity" />
+        </activity>
     </application>
 
 </manifest>
