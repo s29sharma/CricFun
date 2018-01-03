@@ -37,7 +37,7 @@ public class CurrentMatchesFragment extends Fragment{
     public View onCreateView(final LayoutInflater inflater, final ViewGroup container, Bundle savedInstanceState){
         root= inflater.inflate(R.layout.current_matches_fragment, container, false);
         rvCurrent=root.findViewById(R.id.rvCurrent);
-        rvCurrent.setHasFixedSize(true);
+        //rvCurrent.setHasFixedSize(true);
         CurrentMatchesFragmentAdapter cv=new CurrentMatchesFragmentAdapter();
         rvCurrent.setAdapter(cv);
         rvCurrent.setLayoutManager(new LinearLayoutManager(getContext()));

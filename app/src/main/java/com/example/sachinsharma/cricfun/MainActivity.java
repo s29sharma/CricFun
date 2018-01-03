@@ -16,12 +16,18 @@ import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageView;
+import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
     DrawerLayout mDrawerLayout;
     ViewPager vp;
     Fragment fragment = null;
+    private View navHeader;
+    NavigationView navigationView;
+    private ImageView imgNavHeaderBg, imgProfile;
+    TextView nametxt,idText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,7 +41,14 @@ public class MainActivity extends AppCompatActivity
         drawer.addDrawerListener(toggle);
         toggle.syncState();
 
-        NavigationView navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navigationView = (NavigationView) findViewById(R.id.nav_view);
+        navHeader=navigationView.getHeaderView(0);
+        nametxt=navHeader.findViewById(R.id.name);
+        idText=navHeader.findViewById(R.id.email);
+        imgProfile=navHeader.findViewById(R.id.image_profile);
+        nametxt.setText("sachin");
+        idText.setText("s29sharma@gmail.com");
+       //imgProfile.setImageResource(R.drawable.download);
         navigationView.setNavigationItemSelectedListener(this);
         //=findViewById(R.id.drawer_layout);
         vp=findViewById(R.id.vpPager);
@@ -91,7 +104,8 @@ public class MainActivity extends AppCompatActivity
             fragment=new CurrentMatchesFragment().newInstance();
         }
         else if (id == R.id.nav_Results) {
-
+            findViewById(R.id.mainLinear).setVisibility(View.GONE);
+            fragment=new ResultsFragment().newInstance();
         } else if (id == R.id.nav_News) {
 
         } else if (id == R.id.nav_videos) {

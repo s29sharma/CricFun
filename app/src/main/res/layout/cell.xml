@@ -15,6 +15,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Team1"
+        android:textColor="@android:color/black"
         android:textAlignment="textEnd" />
 
     <TextView
@@ -23,6 +24,7 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Time"
+        android:textColor="@android:color/black"
         android:textAlignment="center" />
 
     <TextView
@@ -31,5 +33,6 @@
         android:layout_height="wrap_content"
         android:layout_weight="1"
         android:text="Team2"
+        android:textColor="@android:color/black"
         android:textAlignment="textStart" />
 </LinearLayout>

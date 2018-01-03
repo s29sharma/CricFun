@@ -30,7 +30,7 @@ public class CurrentMatchesFragmentAdapter extends RecyclerView.Adapter<CurrentM
 
     public CurrentMatchesFragmentAdapter(){
         Calendar cal=Calendar.getInstance();
-        livematches=new MatchesLive().returnMatches(String.valueOf(cal.get(Calendar.DAY_OF_MONTH)-1));
+        livematches=new MatchesLive().returnMatches(String.valueOf(cal.get(Calendar.DAY_OF_MONTH)));
 
     }
     public void refreshData(){

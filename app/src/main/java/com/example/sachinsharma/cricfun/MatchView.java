@@ -23,9 +23,6 @@ public class MatchView extends SugarRecord<MatchView> {
         this.date = date;
     }
 
-
-
-
     public String getTeam1() {
         return team1;
     }
