@@ -1,61 +1,101 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/graphview-4.2.1.aar/0891d22e9cd2f499f527f2a6d96aa683/AndroidManifest.xml:2:1-14:12
 MERGED from [com.github.satyan:sugar:1.3] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/sugar-1.3.aar/7ae5049f63e4c5f71fcf39275f0e4650/AndroidManifest.xml:2:1-17:12
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/a19b29fd32aeda9630e36893a83036eb/AndroidManifest.xml:18:1-27:12
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:18:1-42:12
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:18:1-37:12
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:18:1-39:12
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:18:1-35:12
 MERGED from [com.android.support:design:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c79a9451739a9c2a093a3cfdd6b57d9a/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c8d7e60322ae0a437682b3e268fedd4e/AndroidManifest.xml:2:1-11:12
+MERGED from [com.mopub:mopub-sdk:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-4.11.0.aar/9964b3f861025dfeff7d9ba3ff972c7f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mopub:mopub-sdk-native-video:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-video-4.11.0.aar/d1600cc4760cb0ebbf73bf825d1fb332/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-static-4.11.0.aar/ca40d4c78452f38852301918618d1580/AndroidManifest.xml:2:1-13:12
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7f47d9e15621f3a1c34a4868818dbbfe/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:17:1-28:12
+MERGED from [com.mopub:mopub-sdk-banner:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-banner-4.11.0.aar/d33adddcce9c857a6b724c1bf9414b33/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mopub:mopub-sdk-rewardedvideo:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-rewardedvideo-4.11.0.aar/9d5c5c398e4fc77adb029f76e2d984ca/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mopub:mopub-sdk-interstitial:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-interstitial-4.11.0.aar/90d7fd7464be513da7fe68f2890c293c/AndroidManifest.xml:2:1-13:12
+MERGED from [com.mopub:mopub-sdk-base:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-base-4.11.0.aar/7c6f77a23192e41a495fab8c87b52c36/AndroidManifest.xml:2:1-13:12
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:17:1-28:12
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:17:1-28:12
-MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cec988e24f3690e65134036d31191fd4/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6a1666a84ff07be786ca982dccd2f31a/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-media-compat:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-media-compat-26.1.0.aar/a2ff246225f29586a6242cd5e35d8d2b/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/988a9af9db27c0256d4ed9de6bb92e94/AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4f04203b14fc8281cc24e3016e208eb2/AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.6] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/exoplayer-r1.5.6.aar/071f573ec136c81871c631346088dc0e/AndroidManifest.xml:17:1-28:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fcac53790336ecdae38227d007efc7b0/AndroidManifest.xml:17:1-30:12
-INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
-INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
+INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:3:5-47
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
 	android:versionCode
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-33:12
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:2:11-69
 application
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:5:5-31:19
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:5:5-53:19
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/graphview-4.2.1.aar/0891d22e9cd2f499f527f2a6d96aa683/AndroidManifest.xml:11:5-12:19
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/graphview-4.2.1.aar/0891d22e9cd2f499f527f2a6d96aa683/AndroidManifest.xml:11:5-12:19
 MERGED from [com.github.satyan:sugar:1.3] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/sugar-1.3.aar/7ae5049f63e4c5f71fcf39275f0e4650/AndroidManifest.xml:11:5-15:19
 MERGED from [com.github.satyan:sugar:1.3] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/sugar-1.3.aar/7ae5049f63e4c5f71fcf39275f0e4650/AndroidManifest.xml:11:5-15:19
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/a19b29fd32aeda9630e36893a83036eb/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/a19b29fd32aeda9630e36893a83036eb/AndroidManifest.xml:25:5-20
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:27:5-40:19
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:27:5-40:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:27:5-35:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:27:5-37:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:27:5-33:19
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:27:5-33:19
 MERGED from [com.android.support:design:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c79a9451739a9c2a093a3cfdd6b57d9a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c79a9451739a9c2a093a3cfdd6b57d9a/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c8d7e60322ae0a437682b3e268fedd4e/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c8d7e60322ae0a437682b3e268fedd4e/AndroidManifest.xml:9:5-20
+MERGED from [com.mopub:mopub-sdk:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-4.11.0.aar/9964b3f861025dfeff7d9ba3ff972c7f/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-4.11.0.aar/9964b3f861025dfeff7d9ba3ff972c7f/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-native-video:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-video-4.11.0.aar/d1600cc4760cb0ebbf73bf825d1fb332/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-native-video:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-video-4.11.0.aar/d1600cc4760cb0ebbf73bf825d1fb332/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-static-4.11.0.aar/ca40d4c78452f38852301918618d1580/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-static-4.11.0.aar/ca40d4c78452f38852301918618d1580/AndroidManifest.xml:11:5-20
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7f47d9e15621f3a1c34a4868818dbbfe/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7f47d9e15621f3a1c34a4868818dbbfe/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:22:5-26:19
+MERGED from [com.mopub:mopub-sdk-banner:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-banner-4.11.0.aar/d33adddcce9c857a6b724c1bf9414b33/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-banner:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-banner-4.11.0.aar/d33adddcce9c857a6b724c1bf9414b33/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-rewardedvideo:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-rewardedvideo-4.11.0.aar/9d5c5c398e4fc77adb029f76e2d984ca/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-rewardedvideo:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-rewardedvideo-4.11.0.aar/9d5c5c398e4fc77adb029f76e2d984ca/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-interstitial:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-interstitial-4.11.0.aar/90d7fd7464be513da7fe68f2890c293c/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-interstitial:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-interstitial-4.11.0.aar/90d7fd7464be513da7fe68f2890c293c/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-base:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-base-4.11.0.aar/7c6f77a23192e41a495fab8c87b52c36/AndroidManifest.xml:11:5-20
+MERGED from [com.mopub:mopub-sdk-base:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-base-4.11.0.aar/7c6f77a23192e41a495fab8c87b52c36/AndroidManifest.xml:11:5-20
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:22:5-26:19
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:22:5-26:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:25:5-29:19
-MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cec988e24f3690e65134036d31191fd4/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cec988e24f3690e65134036d31191fd4/AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6a1666a84ff07be786ca982dccd2f31a/AndroidManifest.xml:25:5-29:19
@@ -82,60 +122,138 @@ MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sachinsharma/.gradle/c
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:12:9-40
 	android:name
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:6:9-40
-activity#com.example.sachinsharma.cricfun.MainActivity
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:13:9-22:20
-	android:label
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:15:13-45
-	android:theme
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:16:13-56
-	android:name
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:14:13-41
-intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:17:13-21:29
-action#android.intent.action.MAIN
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:18:17-69
-	android:name
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:18:25-66
-category#android.intent.category.LAUNCHER
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:20:17-77
-	android:name
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:20:27-74
-activity#com.example.sachinsharma.cricfun.CurrentMatchesFragment
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:23:9-30:20
-	android:parentActivityName
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:24:13-55
-	android:label
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:25:13-33
-	android:name
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:23:19-57
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:27:13-29:81
+meta-data#DATABASE
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:13:9-79
 	android:value
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:29:17-78
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:13:44-76
 	android:name
-		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:28:17-63
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:13:20-43
+meta-data#VERSION
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:14:9-63
+	android:value
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:14:43-60
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:14:20-42
+meta-data#QUERY_LOG
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:15:9-68
+	android:value
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:15:45-65
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:15:20-44
+meta-data#DOMAIN_PACKAGE_NAME
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:16:9-106
+	android:value
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:16:55-103
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:16:20-54
+activity#com.example.sachinsharma.cricfun.MainActivity
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:17:9-26:20
+	android:label
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:19:13-45
+	android:theme
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:20:13-56
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:18:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:21:13-25:29
+action#android.intent.action.MAIN
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:22:17-69
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:22:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:24:17-77
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:24:27-74
+activity#com.example.sachinsharma.cricfun.ScoreCard
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:27:9-35:20
+	android:parentActivityName
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:29:13-55
+	android:label
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:28:13-33
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:27:19-44
+intent-filter#android.intent.action.ScoreCard
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:31:13-33:29
+action#android.intent.action.ScoreCard
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:32:17-74
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:32:25-71
+activity#com.example.sachinsharma.cricfun.TwitterActivity
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:37:9-44:20
+	android:parentActivityName
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:39:13-55
+	android:label
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:38:13-33
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:37:19-50
+intent-filter#android.intent.action.TwitterActivity
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:41:13-43:29
+action#android.intent.action.TwitterActivity
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:42:17-79
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:42:25-77
+activity#com.example.sachinsharma.cricfun.HomePage
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:46:9-52:20
+	android:parentActivityName
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:48:13-58
+	android:label
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:47:13-33
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:46:19-43
+intent-filter#android.intent.action.HomePage
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:49:13-51:29
+action#android.intent.action.HomePage
+ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:50:17-72
+	android:name
+		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml:50:25-70
 uses-sdk
 INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
 INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/graphview-4.2.1.aar/0891d22e9cd2f499f527f2a6d96aa683/AndroidManifest.xml:7:5-9:41
+MERGED from [com.jjoe64:graphview:4.2.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/graphview-4.2.1.aar/0891d22e9cd2f499f527f2a6d96aa683/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.satyan:sugar:1.3] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/sugar-1.3.aar/7ae5049f63e4c5f71fcf39275f0e4650/AndroidManifest.xml:7:5-9:41
 MERGED from [com.github.satyan:sugar:1.3] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/sugar-1.3.aar/7ae5049f63e4c5f71fcf39275f0e4650/AndroidManifest.xml:7:5-9:41
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/a19b29fd32aeda9630e36893a83036eb/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-3.1.1.aar/a19b29fd32aeda9630e36893a83036eb/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:23:5-44
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:23:5-44
 MERGED from [com.android.support:design:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c79a9451739a9c2a093a3cfdd6b57d9a/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:design:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c79a9451739a9c2a093a3cfdd6b57d9a/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/AndroidManifest.xml:21:5-23:78
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c8d7e60322ae0a437682b3e268fedd4e/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/c8d7e60322ae0a437682b3e268fedd4e/AndroidManifest.xml:5:5-7:41
+MERGED from [com.mopub:mopub-sdk:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-4.11.0.aar/9964b3f861025dfeff7d9ba3ff972c7f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-4.11.0.aar/9964b3f861025dfeff7d9ba3ff972c7f/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-native-video:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-video-4.11.0.aar/d1600cc4760cb0ebbf73bf825d1fb332/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-native-video:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-video-4.11.0.aar/d1600cc4760cb0ebbf73bf825d1fb332/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-static-4.11.0.aar/ca40d4c78452f38852301918618d1580/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-native-static:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-native-static-4.11.0.aar/ca40d4c78452f38852301918618d1580/AndroidManifest.xml:7:5-9:41
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7f47d9e15621f3a1c34a4868818dbbfe/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7f47d9e15621f3a1c34a4868818dbbfe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:20:5-44
+MERGED from [com.mopub:mopub-sdk-banner:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-banner-4.11.0.aar/d33adddcce9c857a6b724c1bf9414b33/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-banner:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-banner-4.11.0.aar/d33adddcce9c857a6b724c1bf9414b33/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-rewardedvideo:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-rewardedvideo-4.11.0.aar/9d5c5c398e4fc77adb029f76e2d984ca/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-rewardedvideo:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-rewardedvideo-4.11.0.aar/9d5c5c398e4fc77adb029f76e2d984ca/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-interstitial:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-interstitial-4.11.0.aar/90d7fd7464be513da7fe68f2890c293c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-interstitial:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-interstitial-4.11.0.aar/90d7fd7464be513da7fe68f2890c293c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-base:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-base-4.11.0.aar/7c6f77a23192e41a495fab8c87b52c36/AndroidManifest.xml:7:5-9:41
+MERGED from [com.mopub:mopub-sdk-base:4.11.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/mopub-sdk-base-4.11.0.aar/7c6f77a23192e41a495fab8c87b52c36/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:20:5-44
 MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:21:5-23:54
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cec988e24f3690e65134036d31191fd4/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cec988e24f3690e65134036d31191fd4/AndroidManifest.xml:21:5-23:60
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6a1666a84ff07be786ca982dccd2f31a/AndroidManifest.xml:21:5-23:58
@@ -146,6 +264,8 @@ MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sachinsharma/
 MERGED from [com.android.support:support-core-utils:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-core-utils-26.1.0.aar/988a9af9db27c0256d4ed9de6bb92e94/AndroidManifest.xml:21:5-23:61
 MERGED from [com.android.support:support-compat:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4f04203b14fc8281cc24e3016e208eb2/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-compat-26.1.0.aar/4f04203b14fc8281cc24e3016e208eb2/AndroidManifest.xml:21:5-23:58
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.6] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/exoplayer-r1.5.6.aar/071f573ec136c81871c631346088dc0e/AndroidManifest.xml:24:5-26:41
+MERGED from [com.google.android.exoplayer:exoplayer:r1.5.6] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/exoplayer-r1.5.6.aar/071f573ec136c81871c631346088dc0e/AndroidManifest.xml:24:5-26:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fcac53790336ecdae38227d007efc7b0/AndroidManifest.xml:20:5-22:41
 MERGED from [android.arch.lifecycle:runtime:1.0.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/runtime-1.0.0.aar/fcac53790336ecdae38227d007efc7b0/AndroidManifest.xml:20:5-22:41
 INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
@@ -160,20 +280,96 @@ INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/An
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
 		ADDED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/sachinsharma/AndroidStudioProjects/Cricfun2/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:25:22-76
+activity#com.mopub.mobileads.MoPubActivity
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:28:9-30:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:30:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:29:13-61
+activity#com.mopub.mobileads.MraidActivity
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:31:9-33:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:33:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:32:13-61
+activity#com.mopub.common.MoPubBrowser
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:34:9-36:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:36:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:35:13-57
+activity#com.mopub.mobileads.MraidVideoPlayerActivity
+ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:37:9-39:77
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:39:13-74
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-mopub:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-mopub-3.1.1.aar/0c8b9c55d9a4c0f81eb11049226cb672/AndroidManifest.xml:38:13-72
+uses-permission#android.permission.INTERNET
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:25:5-67
+MERGED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:25:5-67
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:25:22-64
+activity#com.twitter.sdk.android.tweetui.PlayerActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:28:9-31:49
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:30:13-74
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:31:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:29:13-74
+activity#com.twitter.sdk.android.tweetui.GalleryActivity
+ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:32:9-34:49
+	android:theme
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:34:13-46
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-ui:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-ui-3.1.1.aar/ed327cc26a04b3e1e2362a5e7e2686f2/AndroidManifest.xml:33:13-75
+activity#com.twitter.sdk.android.tweetcomposer.ComposerActivity
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:28:9-31:71
+	android:windowSoftInputMode
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:31:13-68
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:29:13-82
+service#com.twitter.sdk.android.tweetcomposer.TweetUploadService
+ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:33:9-36:40
+	android:enabled
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:35:13-35
+	android:exported
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:36:13-37
+	android:name
+		ADDED from [com.twitter.sdk.android:tweet-composer:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/tweet-composer-3.1.1.aar/18fbb1cb80d172100f2f510d977174c8/AndroidManifest.xml:34:13-84
+activity#com.twitter.sdk.android.core.identity.OAuthActivity
+ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:28:9-32:40
+	android:excludeFromRecents
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:31:13-46
+	android:exported
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:32:13-37
+	android:configChanges
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:30:13-59
+	android:name
+		ADDED from [com.twitter.sdk.android:twitter-core:3.1.1] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/twitter-core-3.1.1.aar/90fc53823b442bce20a79e1b831459c6/AndroidManifest.xml:29:13-79
 meta-data#android.support.VERSION
 ADDED from [com.android.support:design:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/design-26.1.0.aar/c79a9451739a9c2a093a3cfdd6b57d9a/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:appcompat-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/appcompat-v7-26.1.0.aar/b320924ee6ffb76b6d1ae01eef51ecbb/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7f47d9e15621f3a1c34a4868818dbbfe/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:recyclerview-v7:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/recyclerview-v7-26.1.0.aar/7f47d9e15621f3a1c34a4868818dbbfe/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:23:9-25:38
-MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:transition:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/transition-26.1.0.aar/aa25cdaaf0d3fb5c51b2864a4611a37a/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-v4:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-v4-26.1.0.aar/d5478d2f8411cf729ab666a6413ca9a7/AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-26.1.0.aar/f06be14ecdd2873ad0dfda0a89395c83/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-26.1.0.aar/9fca8d9f02e4cf2fe62a290bbef1ed92/AndroidManifest.xml:23:9-25:38
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cec988e24f3690e65134036d31191fd4/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-fragment:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-fragment-26.1.0.aar/cec988e24f3690e65134036d31191fd4/AndroidManifest.xml:26:9-28:38
 MERGED from [com.android.support:support-core-ui:26.1.0] /Users/sachinsharma/.gradle/caches/transforms-1/files-1.1/support-core-ui-26.1.0.aar/6a1666a84ff07be786ca982dccd2f31a/AndroidManifest.xml:26:9-28:38

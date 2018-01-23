@@ -46,14 +46,16 @@ public class MainActivity extends AppCompatActivity
         nametxt=navHeader.findViewById(R.id.name);
         idText=navHeader.findViewById(R.id.email);
         imgProfile=navHeader.findViewById(R.id.image_profile);
-        nametxt.setText("sachin");
-        idText.setText("s29sharma@gmail.com");
+        nametxt.setText("Cricket App");
+        idText.setText("info@cricketapp.com");
        //imgProfile.setImageResource(R.drawable.download);
         navigationView.setNavigationItemSelectedListener(this);
         //=findViewById(R.id.drawer_layout);
         vp=findViewById(R.id.vpPager);
         vp.setAdapter(new SampleFragmentPagerAdapter(getSupportFragmentManager(),this));
         vp.setCurrentItem(1,true);
+
+
         //displayMatches();
 
     }
@@ -117,7 +119,8 @@ public class MainActivity extends AppCompatActivity
 
         }
         else if(id== R.id.nav_PlayerProfiles){
-
+           Intent intent=new Intent(this,TwitterActivity.class);
+           startActivity(intent);
         }
         if (fragment != null) {
             FragmentTransaction ft = getSupportFragmentManager().beginTransaction();

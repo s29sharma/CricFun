@@ -10,6 +10,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <meta-data android:name="DATABASE" android:value="sugar_example.db" />
+        <meta-data android:name="VERSION" android:value="2" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="com.example.sachinsharma.cricfun" />
         <activity
             android:name=".MainActivity"
             android:label="@string/app_name"
@@ -20,13 +24,31 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CurrentMatchesFragment"
-            android:parentActivityName=".MainActivity"
+        <activity android:name=".ScoreCard"
             android:label="Back"
-            >
-            <meta-data
-                android:name="android.support.PARENT_ACTIVITY"
-                android:value="com.example.sachinsharma.cricfun.MainActivity" />
+            android:parentActivityName=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.ScoreCard" />
+            </intent-filter>
+
+        </activity>
+
+        <activity android:name=".TwitterActivity"
+            android:label="Back"
+            android:parentActivityName=".MainActivity">
+
+            <intent-filter>
+                <action android:name="android.intent.action.TwitterActivity"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".HomePage"
+            android:label="Back"
+            android:parentActivityName=".TwitterActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.HomePage"/>
+            </intent-filter>
         </activity>
     </application>
 

@@ -3,7 +3,10 @@ package com.example.sachinsharma.cricfun;
 /**
  * Created by sachinsharma on 1/1/18.
  */
+import android.app.Activity;
+import android.app.Application;
 import android.content.Context;
+import android.content.Intent;
 import android.support.v4.app.FragmentActivity;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
@@ -25,6 +28,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.VH>{
 
     public RVAdapter(Context context,List<MatchView> matcheslive){
         this.livematches=matcheslive;
+        this.context=context;
     }
     public RVAdapter(String date){
         livematches=new MatchesLive().returnMatches(date);
@@ -41,11 +45,25 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.VH>{
     }
 
     @Override
-    public void onBindViewHolder(RVAdapter.VH holder, final int position) {
+    public void onBindViewHolder(final RVAdapter.VH holder, final int position) {
         MatchView match=livematches.get(position);
         holder.team1.setText(match.getTeam1());
         holder.team2.setText(match.getTeam2());
         holder.time.setText(match.getGametTime());
+
+        holder.v.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                System.out.print(ScoreCard.class);
+                Intent intent=new Intent(v.getContext(),ScoreCard.class);
+                intent.putExtra("team1",holder.team1.getText());
+                intent.putExtra("team2",holder.team2.getText());
+                v.getContext().startActivity(intent);
+
+
+
+            }
+        });
     }
 
     @Override
@@ -56,6 +74,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.VH>{
 
     public class VH extends RecyclerView.ViewHolder {
 
+        View v;
         TextView team1;
         TextView team2;
         TextView time;
@@ -64,6 +83,7 @@ public class RVAdapter extends RecyclerView.Adapter<RVAdapter.VH>{
             team1=itemView.findViewById(R.id.team1);
             team2=itemView.findViewById(R.id.team2);
             time=itemView.findViewById(R.id.GameTime);
+            v=itemView;
         }
     }
 }

@@ -1,6 +1,11 @@
 <resources>
     <string name="app_name">Cricfun</string>
 
+
+    <string name="tab_text_1">Batting</string>
+    <string name="tab_text_2">Bowling</string>
+    <string name="tab_text_3">Stats</string>
+    <string name="section_format">Hello World from section: %1$d</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="openDrawer">open_drawer</string>
@@ -14,6 +19,8 @@
     <string name="nav_settings">Settings</string>
     <string name="nav_about_us">About Us</string>
 
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">MPN220DpzVRikWpfH3lYFg4Uu</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">aYdiASIdN6ocQucj9YBlSUoZZaTiNdclDMwwNQ1WWXuS3itm7S</string>
     <string-array name="nav_item_activity_titles">
         <item>Home</item>
         <item>Photos</item>
